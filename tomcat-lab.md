@@ -2,11 +2,11 @@ tomcat을 이용해서 Docker를 사용하는 실습 후 종료까지 (한 사�
 1) 원하는 이미지를 검색 : hub.docker.com 
 
 2) 내가 원하는 컨테이너(이미지)를 가져오기
-```docker pull tomcat
-docker images```
+docker pull tomcat
+docker images
    
 4) 다운로드한 이미지를 실행 (instance를 만든다.)
-```docker run -d -p 8080:8080 --name tc tomcat```
+docker run -d -p 8080:8080 --name tc tomcat
           (1) docker : 도커 명령어 사용
           (2) run : 이미지를 (처음) 실행
           (3) -d   : 백그라운드로 실행  ( -it : 터미널 )
@@ -14,22 +14,22 @@ docker images```
           (6) --name tc : 별칭(별명)을 tc로 한다
           (7) tomcat : 이미지 이름
 
-```docker ps
+docker ps
 curl localhost:8080
 docker stop tc    
-docker start tc```
+docker start tc
 
 
 4) 실행 중인 Docker instance에 연결 (terminal로 연결)
-```docker exec -it tc /bin/bash```
+docker exec -it tc /bin/bash
 
 6) 실행중인 Docker instance를 종료    
-```docker stop tc```
+docker stop tc
 
 7) 실행한 instance를 제거. (단, 실행이 아닌 상태)  
-```docker rm tc```
+docker rm tc
 
 8) 다운로드한 이미지를 삭제 (인스턴스가 없는 상태)
-```docker rmi tomcat```
+docker rmi tomcat
 
 9) ls로 삭제 확인
