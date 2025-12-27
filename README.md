@@ -1,4 +1,4 @@
-#Jinwoo's infra-lab
+# My-stduy
 
 
 `install_docker.sh` : Rocky Linux 9 환경에서 Docker 엔진 자동 설치 및 실행(초기 세팅용)
@@ -17,4 +17,4 @@ tomcat을 이용해서 Docker를 사용하는 실습
 - [tomcat 실습과정](tomcat-lab.md)
 
 SSH
-- [SSH](SSH_setup.md)
+- [SSH](SSH_Setup.md)
