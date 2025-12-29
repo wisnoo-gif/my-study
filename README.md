@@ -14,7 +14,7 @@ chmod +x install_docker.sh #스크립트에 실행권한주기
 
 
 tomcat을 이용해서 Docker를 사용하는 실습
-- [tomcat 실습과정](tomcat-lab.md)
+- [실습과정](tomcat-lab.md)
 
 SSH
 - [SSH](SSH_Setup.md)
@@ -23,4 +23,4 @@ Firewall
 - [Firewall](Firewall_Setup.md)
 
 Docker를 이용한 웹 서버 배포 및 port forwarding 실습
--  (docker-deploy.md)
+-  [실습과정](docker-deploy.md)
