@@ -26,4 +26,4 @@ Docker를 이용한 웹 서버 배포 및 port forwarding 실습
 -  [실습과정](docker-deploy.md)
 
 aws-git 설정 
-- [실습과정](aws-git.md)
+- [실습과정](aws-practice/aws-git.md)
